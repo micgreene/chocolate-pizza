@@ -1,0 +1,115 @@
+main {
+  
+}
+
+/*header stylins*/
+.siteLogoText{
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  padding-left: 55px;
+}
+
+#topOfPage{
+  width: 901px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#socialMediaBar .sMButton{
+  display: inline-block;
+  align-items: right;
+  text-align: right;
+}
+
+.topDivider {
+  margin-top: 25px;
+  margin-bottom: 100px;
+  border: 5px dashed darkgrey;
+  width: 901px;
+}
+
+/*Body stylins*/
+body{
+  background-color: white;
+}
+
+/*main stylins*/
+main{
+  width: 901px;
+  margin: auto;
+}
+
+main h1{
+  font-size: 80px;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+  background-color: #fff;
+}
+
+main h2{
+  font-size:65px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main h3{
+  font-size:20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+
+#textUnderTitle{
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleDate{
+  color: rgb(167, 167, 167);
+
+}
+
+#printButton .printElement{ 
+  display: inline-block;
+  align-items: right;
+  text-align: right;
+  padding-bottom: 50px;
+  color: rgb(167, 167, 167);
+}
+
+
+
+#mainText{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-indent: 30px;
+  text-align: left;
+  color:rgb(85, 85, 85);
+  font-size: 19.5px;
+  line-height: 150%;
+  font-family: 'Times New Roman', Times, serif, Helvetica, serif;
+}
+
+#authorBlock{
+  display: flex;
+  justify-content: space-between;
+}
+
+.authorsText{
+  display: inline-block;
+  text-align: left;
+  position: absolute; 
+  padding-left: 100px;
+}
+
+footer{
+  text-align: center;
+}
